@@ -11,7 +11,7 @@ exercise.load = function(salary, boston){
 
 // get salaries larger than given salary
 exercise.findBiggerSalaries = function(){
-
+    return exercise.salaries.filter(exercise.largerSalary);
     // ---------------------------------------------------
     //   YOUR CODE
     //
@@ -26,6 +26,7 @@ exercise.findBiggerSalaries = function(){
 // filter function
 exercise.largerSalary = function largerSalary(item){
 
+    return item[18]>exercise.salary;
     // ---------------------------------------------------
     //   YOUR CODE
     //
